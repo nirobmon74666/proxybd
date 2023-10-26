@@ -2,7 +2,7 @@ name: Proxy Updater
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '* */4 * * *'
   push:
     branches: [ master ]
   pull_request:
